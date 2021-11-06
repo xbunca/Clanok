@@ -55,7 +55,8 @@
     		\textbf{Abstrakt}
 	\end{center}
 
-			V tomto článku si povieme čo je to Xcode, ako si ho nainštalovať, ako sa s ním pracuje a na čo slúži. Zistíme základné informácie o vydavateľskej spoločnosti Apple. Vrátime sa do histórie, do čias, kedy Xcode bol prvý krát publikovaný. Dozvieme sa, čo všetko je možné v Xcode vytvoriť. Zhodnotíme stabilitu vývojového prostredia a celkovú výpočtovú záťaž na operačný systém. Povieme si, ako sa pracuje s verzionovacím systémom zabudovaným priamo v Xcode. Zameráme sa aj na jeho problémy a nízke hodnotenie uživateľov v obchode AppStore na operačnom systéme macOS. Zamyslíme sa aj nad vylepšeniami, ktoré by mohli byť implementované pre zlepšenie použivateľských skúseností. Článok bude disponovať aj s mojimi osobnými skúenosťami s vývojovým prostredím.
+			V tomto článku si povieme čo je to Xcode, ako si ho nainštalovať, ako sa s ním pracuje a na čo slúži. Zistíme základné informácie o vydavateľskej spoločnosti Apple.  Vrátime sa do histórie, do čias, kedy bol Xcode prvýkrát publikovaný.  Dozvieme sa, čo všetko je možné v Xcode vytvoriť.  Zhodnotíme stabilitu vývojového prostredia a celkovú výpočtovú záťaž na operačný systém.  Povieme si, ako sa pracuje s verzovacím systémom (VS) zabudovaným priamo v Xcode.  Zameriame sa aj na jeho problémy a nízke hodnotenie užívateľov v obchode AppStore na operačnom systéme macOS.  Zamyslíme sa aj nad vylepšeniami,  ktoré by mohli byť implementované pre zlepšenie používateľských skúseností.
+Článok bude obsahovať aj moje osobné skúsenosti s vývojovým prostredím.
 
 	\newpage
 		\renewcommand*\contentsname{Obsah}
@@ -90,8 +91,8 @@
 			Pri vývoji aplikácii v Xcode je podľa testovania github používateľa ashfurrow \cite{ashfurrow} dôležitejší výpočtový výkon procesora ako kapacita RAM.  V jeho rebríčku môžeme vidieť, že ani pomerne veľká kapacita operačnej pamäte (32GB) neurýchlila čerstvú kompiláciu aplikácie tak,  ako ju urýchlil vyšší výpočtový výkon procesora (Apple M1).  \par
 			Rovnako tak je Xcode náročný aj na úložný priestor.  Inštalačný súbor vývojového prostredia Xcode má sám o sebe približne 10GB,  no po nainštalovaní viacerých súčastí sa táto hodnota môže zväčšiť až na 50GB.
 
-		\subsection{VS v Xcode}
-			Xcode podporuje dva najznámejšie VS systémy a to Git a Subversion.  Jedna veľká výhoda Gitu oproti Subversion je tá,  že pomocou Gitu vieme vytvoriť lokálne repozitár na našom zariadení,  zatiaľ čo Subversion je čisto serverovo orientovaný.  Pokiaľ vývojár pracuje na projekte sám,  najlepšie pre neho bude implementovanie Gitu,  lebo nemusí používať server.  Xcode pri vytváraní nového projektu automaticky vytvorí aj Git reopzitár za nás.  \cite{xcodevcs} \par
+		\subsection{Verzovací systém v Xcode}
+			Xcode podporuje dva najznámejšie verzovacie systémy,  a to Git a Subversion.  Jedna veľká výhoda Gitu oproti Subversion je tá,  že pomocou Gitu vieme vytvoriť lokálne repozitár na našom zariadení,  zatiaľ čo Subversion je čisto serverovo orientovaný.  Pokiaľ vývojár pracuje na projekte sám,  najlepšie pre neho bude implementovanie Gitu,  lebo nemusí používať server.  Xcode pri vytváraní nového projektu automaticky vytvorí aj Git reopzitár za nás.  \cite{xcodevcs} \par
 
 	\newpage
 		\section{Hodnotenie Xcodu}
